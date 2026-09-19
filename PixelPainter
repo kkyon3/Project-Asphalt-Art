@@ -1,0 +1,381 @@
+import org.code.neighborhood.*;
+
+public class PixelPainter extends BackgroundPainter {
+
+  public void paintRow1() {
+    moveFast();
+    turnRight();
+    move();
+    turnRight();
+  }
+
+    public void paintRow2() {
+      move();
+      move();
+      move();
+      move();
+      move();
+      move();
+      paint("black");
+      move();
+      paint("black");
+      move();
+      move();
+      move();
+      move();
+      move();
+      move();
+      move();
+      move();
+      turnLeft();
+      move();
+   turnLeft();
+  }
+
+  public void paintRow3(){
+    move();
+    move();
+    move();
+      move();
+      move();
+      move();
+      move();
+      paint("black");
+      move();
+    paint("skyBlue");
+      move();
+      paint("black");
+      move();
+      move();
+      move();
+      move();
+      move();
+      move();
+      turnRight();
+    move();
+    turnRight();
+  }
+
+  public void paintRow4() {
+  move();
+    move();
+    move();
+    move();
+    move();
+    paint("black");
+    move();
+    paint("black");
+    move();
+    paint("skyBlue");
+        move();
+    paint("skyBlue");
+        move();
+      paint("black");
+        move();
+    paint("black");
+        move();
+      paint("black");
+    move();
+        move();
+        move();
+        move();
+     turnLeft();
+      move();
+   turnLeft();
+  }
+
+  public void paintRow5(){
+    move();
+    move();
+    move();
+    paint("black");
+    move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+    paint("black");
+     move();
+     move();
+     move();
+     move();
+     turnRight();
+    move();
+    turnRight();
+  }
+
+  public void paintRow6() {
+    move();
+    move();
+    move();
+    paint("black");
+    move();
+       paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+     paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+     paint("skyBlue");
+        move();
+    paint("black");
+    move();
+    move();
+    turnLeft();
+      move();
+   turnLeft(); 
+  }
+public void paintRow7(){
+  move();
+  paint("black");
+  move();
+  paint("black");
+  move();
+  paint("skyBlue");
+  move();
+  paint("black");
+  move();
+  paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+     paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+  paint("black");
+  move();
+  move();
+   turnRight();
+    move();
+    turnRight();
+}
+
+  public void paintRow8(){
+    move();
+    paint("black");
+    move();
+       paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+    paint("black");
+    move();
+      paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+     paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+     paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+     paint("skyBlue");
+        move();
+      paint("skyBlue");
+        move();
+       paint("black");
+    turnLeft();
+      move();
+   turnLeft(); 
+    
+  }
+
+public void paintRow9() {
+  move();
+  paint("black");
+    move();
+  paint("black");
+    move();
+  paint("black");
+    move();
+  paint("black");
+    move();
+  paint("black");
+    move();
+  paint("black");
+    move(); 
+   paint("skyBlue");
+        move();
+   paint("skyBlue");
+        move();
+  paint("black");
+    move(); 
+  paint("black");
+    move(); 
+   paint("skyBlue");
+        move();
+   paint("skyBlue");
+        move();
+   paint("skyBlue");
+        move();
+   paint("black");
+    move();
+   turnRight();
+    move();
+    turnRight();
+}
+
+public void paintRow10() {
+  move();
+  paint("black");
+        move();
+     paint("skyBlue");
+        move();
+   paint("skyBlue");
+        move();
+   paint("black");
+        move();
+   move();
+   paint("black");
+  move();
+  paint("skyBlue");
+        move();
+   paint("black");
+  move();
+  paint("Blue");
+        move();
+  paint("black");
+  move();
+  move();
+  move();
+  move();
+  move();
+  turnLeft();
+      move();
+   turnLeft(); 
+} 
+
+  public void paintRow11() {
+   move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    paint("black");
+    move();
+    move();
+      paint("black");
+    move();
+    paint("black");
+    move();
+     move();
+      paint("black");
+  move();
+  paint("skyBlue");
+        move();
+   paint("black");
+  move();
+    move();
+     turnRight();
+    move();
+    turnRight();
+  }
+
+  public void paintRow12() {
+     move();
+     move();
+    paint("black");
+    move();
+    paint("skyBlue");
+   move();
+    paint("black");
+    move();
+     paint("black");
+  moveFast();
+     turnLeft();
+      move();
+   turnLeft(); 
+    
+  }
+
+  public void paintRow13(){
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+     paint("black");
+    move();
+    paint("blue");
+   move();
+     paint("blue");
+   move();
+    paint("black");
+    move();
+     move();
+     move();
+      turnRight();
+    move();
+    turnRight();
+  }
+  public void paintRow14(){
+    move();
+    move();
+    move();
+     paint("black");
+    move();
+     paint("blue");
+   move();
+     paint("black");
+    moveFast();
+    turnLeft();
+      move();
+   turnLeft(); 
+  }
+
+   public void paintRow15(){
+   move();
+    move();
+    move();
+      move();
+    move();
+    move();
+      move();
+    move();
+    move();
+     move();
+    move();
+     paint("black");
+}
+}
