@@ -2,6 +2,21 @@ import org.code.neighborhood.*;
 
 public class PainterPlus extends Painter {
 
+
+//Moves to the next row when called
+public void nextRow() {
+  if (isFacingEast()) {
+    turnRight();
+    move();
+    turnRight();
+  } else {
+    turnLeft();
+    move();
+    turnLeft();
+  }
+}
+
+  
   // Turns the Painter to the right
   public void turnRight() {
     turnLeft();
