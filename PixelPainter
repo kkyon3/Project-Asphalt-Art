@@ -2,13 +2,21 @@ import org.code.neighborhood.*;
 
 public class PixelPainter extends BackgroundPainter {
 
+public void getOffDesign() {
+  if (canMove()) {
+    moveFast();
+  }else{
+resetPosition();
+  }
+}
+  
+//Moves through the 1st row
   public void paintRow1() {
     moveFast();
-    turnRight();
-    move();
-    turnRight();
+    nextRow();
   }
 
+//Paints the 2nd row of the design
     public void paintRow2() {
       move();
       move();
@@ -27,11 +35,10 @@ public class PixelPainter extends BackgroundPainter {
       move();
       move();
       move();
-      turnLeft();
-      move();
-   turnLeft();
+        nextRow();
   }
 
+//Paints the 3rd row of the design
   public void paintRow3(){
     move();
     move();
@@ -51,11 +58,10 @@ public class PixelPainter extends BackgroundPainter {
       move();
       move();
       move();
-      turnRight();
-    move();
-    turnRight();
+      nextRow();
   }
 
+//Paints the 4th row of the design
   public void paintRow4() {
   move();
     move();
@@ -79,11 +85,10 @@ public class PixelPainter extends BackgroundPainter {
         move();
         move();
         move();
-     turnLeft();
-      move();
-   turnLeft();
+        nextRow();
   }
 
+//Paints the 5th row of the design
   public void paintRow5(){
     move();
     move();
@@ -109,11 +114,10 @@ public class PixelPainter extends BackgroundPainter {
      move();
      move();
      move();
-     turnRight();
-    move();
-    turnRight();
+       nextRow();
   }
 
+//Paints the 6th row of the design
   public void paintRow6() {
     move();
     move();
@@ -141,10 +145,10 @@ public class PixelPainter extends BackgroundPainter {
     paint("black");
     move();
     move();
-    turnLeft();
-      move();
-   turnLeft(); 
+       nextRow();
   }
+
+//Paints the 7th row of the design
 public void paintRow7(){
   move();
   paint("black");
@@ -174,11 +178,10 @@ public void paintRow7(){
   paint("black");
   move();
   move();
-   turnRight();
-    move();
-    turnRight();
+   nextRow();
 }
 
+//Paints the 8th row of the design
   public void paintRow8(){
     move();
     paint("black");
@@ -210,12 +213,11 @@ public void paintRow7(){
       paint("skyBlue");
         move();
        paint("black");
-    turnLeft();
-      move();
-   turnLeft(); 
+     nextRow();
     
   }
 
+//Paints the 9th row of the design
 public void paintRow9() {
   move();
   paint("black");
@@ -246,11 +248,10 @@ public void paintRow9() {
         move();
    paint("black");
     move();
-   turnRight();
-    move();
-    turnRight();
+     nextRow();
 }
 
+//Paints the 10th row of the design
 public void paintRow10() {
   move();
   paint("black");
@@ -268,7 +269,7 @@ public void paintRow10() {
         move();
    paint("black");
   move();
-  paint("Blue");
+  paint("skyBlue");
         move();
   paint("black");
   move();
@@ -276,11 +277,10 @@ public void paintRow10() {
   move();
   move();
   move();
-  turnLeft();
-      move();
-   turnLeft(); 
+    nextRow();
 } 
 
+//Paints the 11th row of the design
   public void paintRow11() {
    move();
     move();
@@ -303,11 +303,10 @@ public void paintRow10() {
    paint("black");
   move();
     move();
-     turnRight();
-    move();
-    turnRight();
+      nextRow();
   }
 
+//Paints the 12th row of the design
   public void paintRow12() {
      move();
      move();
@@ -319,12 +318,11 @@ public void paintRow10() {
     move();
      paint("black");
   moveFast();
-     turnLeft();
-      move();
-   turnLeft(); 
+      nextRow();
     
   }
 
+//Paints the 13th row of the design
   public void paintRow13(){
     move();
     move();
@@ -337,9 +335,9 @@ public void paintRow10() {
     move();
      paint("black");
     move();
-    paint("blue");
+    paint("skyBlue");
    move();
-     paint("blue");
+     paint("skyBlue");
    move();
     paint("black");
     move();
@@ -349,21 +347,22 @@ public void paintRow10() {
     move();
     turnRight();
   }
+
+//Paints the 14th row of the design
   public void paintRow14(){
     move();
     move();
     move();
      paint("black");
     move();
-     paint("blue");
+     paint("skyBlue");
    move();
      paint("black");
     moveFast();
-    turnLeft();
-      move();
-   turnLeft(); 
+      nextRow();
   }
 
+//Paints the 15th row of the design
    public void paintRow15(){
    move();
     move();
